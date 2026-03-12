@@ -728,7 +728,7 @@ export default function App() {
             <div className="flex items-center justify-between gap-4">
               <div>
                 <div className="text-sm font-semibold uppercase tracking-[0.35em] text-cyan-300">
-                  Biomedical Optics Portfolio
+                  MD MOBARAK KARIM
                 </div>
                 <div className="mt-1 text-xl font-semibold text-slate-100 sm:text-2xl">
                   Md. Mobarak Karim
