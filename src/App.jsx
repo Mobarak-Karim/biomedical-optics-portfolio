@@ -214,8 +214,8 @@ const researchAreas = [
     text: "Depth-resolved attenuation coefficient mapping and computational analysis for tissue characterization in developmental models.",
   },
   {
-    title: "Optical System Design",
-    text: "Instrument design, alignment, scanning strategy development, and integration of one-photon and two-photon light-sheet platforms.",
+  title: "Optical Design & Simulation",
+  text: "Optical analysis experience using Zemax for laser scanning microscopy system design, with work in achromatic doublet based scan-lens evaluation, aberration analysis, and performance optimization across imaging conditions.",
   },
   {
     title: "Image Analysis and Translation",
@@ -286,14 +286,17 @@ const toolProjects = [
     title: "Quantitative Imaging Workflows",
     text: "Fiji, MATLAB, and Python based analysis for attenuation mapping, vascular quantification, and multimodal data interpretation.",
   },
+
 ];
 
 const quickStats = [
-  { value: "6+ years", label: "Research in biomedical optics and imaging" },
-  { value: "OCT + LSFM", label: "Co-registered multimodal imaging" },
-  { value: "Embryogenesis", label: "Primary biological application" },
-  { value: "Optical Design", label: "System development and validation" },
-];
+  { value: "7+ years", label: "Biomedical optics and imaging research" },
+  { value: "Optical Imaging", label: "OCT, OCE, OCM, OCTA, LSFM, Multiphoton, SGH" },
+  { value: "Zebrafish & Mouse", label: "Embryogenesis imaging models" },
+  { value: "Zemax OpticStudio", label: "Optical design and performance analysis" },
+  { value: "Python / MATLAB / LabVIEW", label: "Analysis, automation, and visualization" },
+  { value: "Quantitative Imaging", label: "Attenuation and vascular workflows" },
+]
 
 const galleryItems = [
   {
@@ -775,7 +778,7 @@ export default function App() {
               transition={{ duration: 0.7, delay: 0.08 }}
               className="mt-7 max-w-3xl text-lg leading-9 text-slate-300 sm:text-xl"
             >
-              I develop optical coherence tomography and light-sheet fluorescence microscopy systems for co-registered structural and molecular imaging, with applications in embryogenesis, quantitative imaging, and biomedical instrument design.
+               I develop very first co-registered multimodal imaging platforms based on optical coherence tomography and light-sheet fluorescence microscopy (OCT-LS) for simultaneous structural and molecular imaging. My work spans optical system development, quantitative tissue and image analysis, and custom software workflows for embryonic imaging in zebrafish and mouse models.
             </motion.p>
 
             <motion.div
@@ -805,11 +808,11 @@ export default function App() {
               className="mt-10 flex flex-wrap gap-3"
             >
               <Tag>University of Houston</Tag>
-              <Tag>OCT</Tag>
-              <Tag>LSFM</Tag>
+              <Tag>OCT, OCE, OCTA, OCM</Tag>
+              <Tag> One-photon and Two-photon LSFM</Tag>
               <Tag>Two-photon imaging</Tag>
               <Tag>Biomedical Optics</Tag>
-              <Tag>Optical Design</Tag>
+              <Tag>Zemax OpticStudio</Tag>
               <Tag>Embryonic Imaging</Tag>
             </motion.div>
           </div>
@@ -896,13 +899,16 @@ export default function App() {
               <GlassCard className="p-7 sm:p-8">
                 <SectionLabel>About</SectionLabel>
                 <h2 className="text-3xl font-semibold text-white sm:text-4xl">
-                  Researcher, builder, and optical systems developer
+                  Biomedical Optics Researcher and Multimodal Imaging Systems Developer
                 </h2>
                 <p className="mt-5 text-base leading-8 text-slate-300">
-                  PhD candidate in Biomedical Engineering at the University of Houston with more than six years of research experience in biomedical optics, photonics, and multimodal imaging. My work focuses on co-registered OCT and LSFM platforms for embryonic imaging, quantitative image analysis, and custom software development for imaging workflows.
+                  PhD candidate in Biomedical Engineering at the University of Houston with over six years of research experience in biomedical optics, photonics, and multimodal imaging. My research centers on the development of co-registered optical coherence tomography and light-sheet fluorescence microscopy platforms for embryonic imaging, with additional expertise in two-photon microscopy, quantitative image analysis, and custom software development for imaging workflows.
                 </p>
                 <p className="mt-4 text-base leading-8 text-slate-300">
                   I work across zebrafish and mouse embryo imaging, system integration, quantitative tissue optics, and image-analysis pipelines that support both methodological development and biological discovery.
+                </p>
+                <p className="mt-4 text-base leading-8 text-slate-300">
+                  My background also includes Zemax based optical analysis for laser scanning microscopy, including scan-lens evaluation, achromatic doublet optimization, aberration assessment, and imaging performance tradeoff analysis. Across research projects, I have contributed to system validation, multimodal co-registration, quantitative attenuation mapping, and publication-ready imaging workflows that support both methodological innovation and biological discovery.
                 </p>
               </GlassCard>
             </motion.div>
@@ -923,7 +929,7 @@ export default function App() {
                     <div className="min-h-[320px]">
                       <img
                         src={portfolioImages.headshot}
-                        alt="Md. Mobarak Karim"
+                        alt="Md Mobarak Karim"
                         className="h-full w-full object-cover object-top"
                       />
                     </div>
