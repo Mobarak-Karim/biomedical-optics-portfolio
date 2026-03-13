@@ -767,8 +767,7 @@ export default function App() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.65 }}
-              className="hero-balance max-w-4xl text-4xl font-semibold leading-[0.98] text-white sm:text-5xl lg:text-7xl"
-            >
+              className="hero-balance max-w-4xl text-3xl font-semibold leading-[1.02] text-white sm:text-4xl lg:text-6xl"            >
               Multimodal optical imaging for embryonic development and translational biomedical optics
             </motion.h1>
 
@@ -778,7 +777,7 @@ export default function App() {
               transition={{ duration: 0.7, delay: 0.08 }}
               className="mt-7 max-w-3xl text-lg leading-9 text-slate-300 sm:text-xl"
             >
-               I develop very first co-registered multimodal imaging platforms based on optical coherence tomography and light-sheet fluorescence microscopy (OCT-LS) for simultaneous structural and molecular imaging. My work spans optical system development, quantitative tissue and image analysis, and custom software workflows for embryonic imaging in zebrafish and mouse models.
+               I developed very first co-registered multimodal imaging platforms based on optical coherence tomography and light-sheet fluorescence microscopy (OCT-LS) for simultaneous structural and molecular imaging. My work spans optical system development, quantitative tissue and image analysis, and custom software workflows for embryonic imaging in zebrafish and mouse models.
             </motion.p>
 
             <motion.div
